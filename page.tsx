@@ -5,7 +5,7 @@ const ecosystem = [
   { code: "04", name: "DesignLab", role: "طراحی" },
   { code: "05", name: "Opsmith", role: "DevOps" },
   { code: "06", name: "Datalab", role: "داده و BI" },
-  { code: "07", name: "Ledger", role: "حسابداری" },
+  { code: "07", name: "Monich", role: "حسابداری" },
   { code: "08", name: "Oper", role: "عملیات کسب‌وکار" },
   { code: "09", name: "Froma", role: "فروش و مارکتینگ" },
 ];
@@ -267,10 +267,10 @@ export default function Home() {
         </h2>
         <div className="flex flex-wrap items-center gap-6 mb-16">
           <a
-            href="mailto:hello@arminneyrizi.com"
+            href="mailto:arminneyrizi@gmail.com"
             className="inline-flex items-center gap-3 border-2 hairline rounded-full px-6 py-3 text-base font-bold hover:bg-[var(--ink)] hover:text-[var(--paper)] transition-colors"
           >
-            hello@arminneyrizi.com
+            arminneyrizi@gmail.com
           </a>
         </div>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pt-8 border-t-2 hairline text-sm text-[var(--mute)]">

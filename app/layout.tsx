@@ -19,9 +19,9 @@ const kalameh = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "آرمین نیریزی — طراح سیستم",
+  title: "Armin Neyrizi — System Designer",
   description:
-    "آرمین نیریزی؛ طراح سیستم، مدیر پروژه و سازنده اکوسیستم. سازنده‌ی Joinly — کارخانه‌ی استعداد پروژه‌محور.",
+    "Armin Neyrizi — System Designer, Project Manager, and Ecosystem Builder. Founder of Joinly, a Project-Based Talent Factory.",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa" dir="rtl" className={kalameh.variable}>
+    <html lang="en" dir="ltr" className={kalameh.variable}>
       <body className="antialiased">{children}</body>
     </html>
   );
